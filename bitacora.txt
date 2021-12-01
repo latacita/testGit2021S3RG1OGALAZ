@@ -11,6 +11,13 @@
 (3)		git branch Lola
 (4)		git checkout Paco
 
+(6)		git add bitacora.txt
+(7)		git commit -m "Paso 7"
+(8)		git checkout Lola
+
+(10)	git add bitacora.txt
+(11)	git commit -m "Paso 11"
+
 (13)	Desde sourcetree:				Al no haberse realizado un commit, es imposible cambiara de rama sin perder los datos
 		doble click en master			por lo que se ha salido descartando los cambios con el ckeckbox "clean discard changes" seleccionado.
 		
@@ -23,3 +30,16 @@
 										incluidos los commits en la rama master (leyendo el enunciado entendí que había que realizarlo con fast forward
 										aunque pensandolo ahora, al ser en Master no estoy muy seguro de haberlo entendido bien).
 										Conflicto en bitacora, se ha abierto el fichero y se ha reorganizado lo de ambas ramas de manera correcta.
+
+(20)	git add bitacora.txt
+(21)	git commit -m "Paso 21"
+(22)	git checkout Lola
+(23)								Se guardadó una copia del fichero en otra carpeta
+									Los cambios de (12) se han recuperado desde ese fichero
+
+(25)	git add bitacora.txt
+(26)	git commit -m "Paso 26)
+(27)	git checkout master
+(28)	git merge --no-ff Lola			Se ha realizado un merge utilizando no fast forward lo que permite mantener los commits de Lola fuera de master
+										(El enunciado era el mismo que en el (18) pero como mencione antes, creo que entendi mal, ahora creo haberlo entendido bien).
+
