@@ -1,8 +1,12 @@
 %%==================================================================%%
 %%                 Métodos de Desarrollo - Test de Git              %%
 %%==================================================================%%
-%% Alumno (Apellidos, Nombre):                                      %%
+%% Alumno (Apellidos, Nombre): Sergio Gallego Alvarez               %%
 %%==================================================================%%
 
  Paso   Acción                       Notas
 ====== ============================ ================================
+(1)		git clone url
+(2)		gir branch Paco
+(3)		git branch Lola
+(4)		git checkout Paco
