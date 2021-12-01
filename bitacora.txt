@@ -1,13 +1,25 @@
 %%==================================================================%%
 %%                 Métodos de Desarrollo - Test de Git              %%
 %%==================================================================%%
-%% Alumno (Apellidos, Nombre):                                      %%
+%% Alumno (Apellidos, Nombre): Sergio Gallego Alvarez               %%
 %%==================================================================%%
 
  Paso   Acción                       Notas
 ====== ============================ ================================
+(1)		git clone url
+(2)		gir branch Paco
+(3)		git branch Lola
+(4)		git checkout Paco
+
 (13)	Desde sourcetree:				Al no haberse realizado un commit, es imposible cambiara de rama sin perder los datos
 		doble click en master			por lo que se ha salido descartando los cambios con el ckeckbox "clean discard changes" seleccionado.
 		
 (14)									En este momento no cambiaría nada dado que ambos estan en la mism "version", ni en master ni en
 										Lola se ha hecho ningun commit.
+
+(16)	git add bitacora.txt			
+
+(18)	git merge Paco					Ya estando en la rama master, se ha realizado una fusion con fast foward para introducir todos los cambios
+										incluidos los commits en la rama master (leyendo el enunciado entendí que había que realizarlo con fast forward
+										aunque pensandolo ahora, al ser en Master no estoy muy seguro de haberlo entendido bien).
+										Conflicto en bitacora, se ha abierto el fichero y se ha reorganizado lo de ambas ramas de manera correcta.
