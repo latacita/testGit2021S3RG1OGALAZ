@@ -9,3 +9,12 @@
 (6)		git add bitacora.txt
 (7)		git commit -m "Paso 7"
 (8)		git checkout Lola
+(10)	git add bitacora.txt
+(11)	git commit -m "Paso 11"
+
+(20)	git add bitacora.txt
+(21)	git commit -m "Paso 21"
+(22)	git checkout Lola
+(23)								Se guardadó una copia del fichero en otra carpeta
+									Los cambios de (12) se han recuperado desde ese fichero
+
