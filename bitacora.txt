@@ -6,3 +6,8 @@
 
  Paso   Acción                       Notas
 ====== ============================ ================================
+(13)	Desde sourcetree:				Al no haberse realizado un commit, es imposible cambiara de rama sin perder los datos
+		doble click en master			por lo que se ha salido descartando los cambios con el ckeckbox "clean discard changes" seleccionado.
+		
+(14)									En este momento no cambiaría nada dado que ambos estan en la mism "version", ni en master ni en
+										Lola se ha hecho ningun commit.
